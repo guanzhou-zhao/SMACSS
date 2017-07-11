@@ -41,10 +41,16 @@
 
 ### Theme rules
 
-- [ ] Theme rules are similar to state in that they describe how a module or layout might look. Most sites don't require a layer of theming but it's good to be aware of it.
+- [ ] Theme rules are __similar to state__ in that they describe how a module or layout might look. Most sites don't require a layer of theming but it's good to be aware of it.
 
 ## Naming Conventions
 
 - [ ] By separating rules into five categories, naming conventions are beneficial for immediately understanding which category a particular style belongs to and its role within the overall scope of the page.
-- [ ] On larger projects, it's more likely to have styles broken up across multiple files. In these cases, naming conventions also make it easier to find which file a style belongs to.
+- [ ] On larger projects, it's more likely to have **styles broken up across multiple files**. In these cases, naming conventions also make it easier to find which file a style belongs to.
 - [ ] I like to use prefix to differentiate between Layout, State and module rules.
+  1. - [ ] For layout, use `l-` or `layout-`
+  2. - [ ] For State, use `is-` as in `is-active`, `is-collapsed` or `is-hidden`.
+- [ ] Related elements within a module use the base name as a prefix.
+- [ ] For example, code example use `.exm` and the caption use `.exm-caption`
+- [ ] Modules that are variation of another module should also use the base module name as a prefix.
+- [ ] Have a convention, document it, and stick to it.
